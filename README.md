@@ -8,6 +8,7 @@ I'm a passionate Enthusiastic and driven Computer Programming student seeking a 
 ## 💼 My Projects:
 - [Chess System](https://github.com/mthsdaher/chess-java): a chess game system in Java, leveraging Object-Oriented Programming (OOP) principles such as encapsulation, inheritance, polymorphism, and concepts including exceptions, abstract classes, and data structures.
 - [Data analyst projects](https://github.com/mthsdaher/Data-Analyst): A few projects in data analysis, using Power BI, DAX function, Tableau, etc.
+- [World to Excel](https://github.com/mthsdaher/word_to_excel): Using python to parse random information to a excel file.
 
 ## 📫 How to reach me:
 - **Email:** [matheusdaher@gmail.com]
