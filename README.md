@@ -1,6 +1,6 @@
 # 👋 Hi there, I'm Matheus Daher
 
-I'm a passionate Enthusiastic and driven Computer Programming student seeking a Co-op position from September to December 2024. Skills in manipulate data, make reports with data analysis and analytical skills, ability synthesize and summarize complex information.
+I'm a passionate Enthusiastic and driven Computer Programming student. Skills in manipulate data, make reports with data analysis and analytical skills, ability synthesize and summarize complex information.
 
 ## 🌱 I'm currently making self projects in:
 -•	Proficient in programming languages such as Python (Pandas, Beautiful Soup, Selenium, PyAutoGUI), SQL, Java, JavaScript, React, Node.js, PHP, Arduino C++, C#, Azure.
