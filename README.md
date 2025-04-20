@@ -11,22 +11,22 @@ I’m a Full‑Stack Developer, passionate about building end‑to‑end web and
 ---
 
 ## 💼 Selected Projects  
+- [Receipt Scanner](https://github.com/mthsdaher/receipt-scanner)  
+  Full‑stack receipt OCR system with live text recognition, multi‑step preview, JWT auth, and Azure deployments.  
+- [Ticketing Platform](https://github.com/mthsdaher/ticketing)  
+  End‑to‑end event‑ticket booking solution with Node.js/Express API, React Native front‑end, and relational + NoSQL databases.
 - [Chess System](https://github.com/mthsdaher/chess-java)  
   Java OOP chess game leveraging encapsulation, inheritance, polymorphism, exceptions and data structures.  
 - [Data Analyst Projects](https://github.com/mthsdaher/Data-Analyst)  
   Data‑analysis dashboards & reports built with Power BI, Tableau & DAX.  
 - [Word to Excel](https://github.com/mthsdaher/word_to_excel)  
   Python scripts (Pandas, openpyxl) to parse unstructured text into well‑formatted Excel.  
-- [Receipt Scanner](https://github.com/mthsdaher/receipt-scanner)  
-  Full‑stack receipt OCR system with live text recognition, multi‑step preview, JWT auth, and Azure deployments.  
-- [Ticketing Platform](https://github.com/mthsdaher/ticketing-platform)  
-  End‑to‑end event‑ticket booking solution with Node.js/Express API, React Native front‑end, and relational + NoSQL databases.
+
 
 ---
 
 ## 📫 How to Reach Me  
-- **Email:** [matheusdaher@gmail.com](mailto:matheusdaher@gmail.com)  
-- **Portfolio:** https://your-portfolio-url.dev  
+- **Email:** [matheusdaher@gmail.com](mailto:mthsvdaher@gmail.com)  
 - **GitHub:** https://github.com/mthsdaher  
 
 ---
