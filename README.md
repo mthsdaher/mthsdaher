@@ -1,85 +1,77 @@
-Matheus Daher — Portfolio
+# Matheus Daher
 
-Full-stack portfolio showcasing projects built with TypeScript, React, and Node.js.
+Full-Stack Developer · TypeScript, React, Node.js
+
+[LinkedIn](https://www.linkedin.com/in/matheus-daher/) · [Portfolio](https://portfolio-git-main-matheus-projects-cba512cb.vercel.app/)
+
+---
+
+## Portfolio
+
+Full-stack portfolio site with React frontend and Express API backend.
 
 **[View Live](https://portfolio-git-main-matheus-projects-cba512cb.vercel.app/)**
 
----
-
-## Overview
-
-This portfolio presents my work as a Full-Stack Developer: featured projects, technical skills, and contact information. The site is a monorepo with a React frontend and an Express API backend for form handling and validation.
-
----
-
-## Architecture
+| | |
+|---|---|
+| **Stack** | React, TypeScript, Vite, Express, Zod |
+| **Architecture** | React SPA → Express API (contact form, validation) |
 
 ```mermaid
 flowchart LR
-    subgraph Client
-        A[React + Vite]
-    end
-
-    subgraph Server
-        B[Express API]
-        C[Zod Validation]
-    end
-
-    A -->|POST /api/contact| B
-    B --> C
-    C -->|validated| B
+    A[React + Vite] -->|POST /api/contact| B[Express API]
+    B --> C[Zod Validation]
 ```
 
-- **Frontend:** React SPA served via Vite. Displays projects, resume snapshot, and contact form.
-- **Backend:** Express API with CORS, JSON parsing, and Zod schema validation for the contact endpoint.
-- **Deployment:** Frontend on Vercel; backend can run on any Node.js host.
-
----
-
-## Tech Stack
-
-| Layer   | Technologies                          |
-|---------|--------------------------------------|
-| Frontend| React, TypeScript, Vite, CSS Modules |
-| Backend | Node.js, Express, Zod                |
-| Tools   | Git, npm, concurrently               |
-
----
-
-## How to Run Locally
-
-**Prerequisites:** Node.js 18+
-
+**Run locally:**
 ```bash
-# Clone and install
-git clone https://github.com/mthsdaher/portfolio.git
-cd portfolio
-npm install
-
-# Run frontend + backend
-npm run dev
-```
-
-- **Frontend:** http://localhost:5173
-- **Backend:** http://localhost:3001
-
-**Run separately:**
-```bash
-npm run dev:front   # frontend only
-npm run dev:back    # backend only
+git clone https://github.com/mthsdaher/portfolio.git && cd portfolio
+npm install && npm run dev
 ```
 
 ---
 
-## Future Improvements
+## Agendamento Unique
 
-- [ ] Add contact form submission (email integration or serverless function)
-- [ ] Add dark/light theme toggle
-- [ ] Add project screenshots carousel
-- [ ] Add blog or writing section
+Centralized booking platform for courts, events, and parties with conflict prevention.
+
+**[Live Demo](https://agendamento-unique-655344779408.northamerica-northeast2.run.app/)**
+
+| | |
+|---|---|
+| **Stack** | TypeScript, React, Node.js, Express, Zod, Google Cloud Run |
+| **Features** | Availability management, conflict prevention, reservation flows |
+
+```mermaid
+flowchart TB
+    A[React UI] <-->|REST API| B[Express API]
+    B --> C[Zod Validation]
+    B --> D[Database]
+```
+
+---
+
+## Receipt Scanner
+
+OCR-based receipt processing that converts images into structured expense data.
+
+**[GitHub](https://github.com/mthsdaher/receipt-scanner)**
+
+| | |
+|---|---|
+| **Stack** | TypeScript, React, Node.js, Express, Zod |
+| **Features** | OCR extraction, typed validation, searchable records |
+
+```mermaid
+flowchart TB
+    A[React UI] -->|upload| B[Express API]
+    B --> C[OCR / Processing]
+    C --> D[Zod Validation]
+    D --> E[Structured Data]
+```
 
 ---
 
 ## Links
 
-[GitHub](https://github.com/mthsdaher) · [LinkedIn](https://www.linkedin.com/in/matheus-daher/) · [Resume](/resume/Matheus_Daher_Resume.tex)
+[GitHub](https://github.com/mthsdaher) · [LinkedIn](https://www.linkedin.com/in/matheus-daher/) · [Portfolio](https://portfolio-git-main-matheus-projects-cba512cb.vercel.app/)
