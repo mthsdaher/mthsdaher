@@ -6,6 +6,10 @@ Full-Stack Developer · TypeScript, React, Node.js
 
 ---
 
+*Featured below are my main and most recent projects. More available on my [GitHub](https://github.com/mthsdaher).*
+
+---
+
 ## Portfolio
 
 Full-stack portfolio site with React frontend and Express API backend.
