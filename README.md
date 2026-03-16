@@ -1,29 +1,85 @@
-# Matheus Daher — Portfolio
+Matheus Daher — Portfolio
 
-Software Developer focused on TypeScript, React, and Node.js. I build reliable systems with strong validation, thoughtful UX, and maintainable architecture.
+Full-stack portfolio showcasing projects built with TypeScript, React, and Node.js.
 
-**[View Live Portfolio](https://portfolio-git-main-matheus-projects-cba512cb.vercel.app/)**
-
----
-
-## Featured Projects
-
-| Project | Description | Stack |
-|---------|-------------|-------|
-| **[Agendamento Unique](https://agendamento-unique-655344779408.northamerica-northeast2.run.app/)** | Centralized booking platform for courts, events, and parties with conflict prevention. | TypeScript, React, Node.js, Cloud Run |
-| **[Receipt Scanner](https://github.com/mthsdaher/receipt-scanner)** | OCR-based flow that extracts receipt fields and structures records for expense management. | TypeScript, React, Node.js, Zod |
+**[View Live](https://portfolio-git-main-matheus-projects-cba512cb.vercel.app/)**
 
 ---
 
-## Stack
+## Overview
 
-TypeScript · React · Node.js · Express · Zod · PostgreSQL · Docker
+This portfolio presents my work as a Full-Stack Developer: featured projects, technical skills, and contact information. The site is a monorepo with a React frontend and an Express API backend for form handling and validation.
 
 ---
 
-## Run Locally
+## Architecture
+
+```mermaid
+flowchart LR
+    subgraph Client
+        A[React + Vite]
+    end
+
+    subgraph Server
+        B[Express API]
+        C[Zod Validation]
+    end
+
+    A -->|POST /api/contact| B
+    B --> C
+    C -->|validated| B
+```
+
+- **Frontend:** React SPA served via Vite. Displays projects, resume snapshot, and contact form.
+- **Backend:** Express API with CORS, JSON parsing, and Zod schema validation for the contact endpoint.
+- **Deployment:** Frontend on Vercel; backend can run on any Node.js host.
+
+---
+
+## Tech Stack
+
+| Layer   | Technologies                          |
+|---------|--------------------------------------|
+| Frontend| React, TypeScript, Vite, CSS Modules |
+| Backend | Node.js, Express, Zod                |
+| Tools   | Git, npm, concurrently               |
+
+---
+
+## How to Run Locally
+
+**Prerequisites:** Node.js 18+
 
 ```bash
-# Install and run (frontend + backend)
+# Clone and install
+git clone https://github.com/mthsdaher/portfolio.git
+cd portfolio
 npm install
+
+# Run frontend + backend
 npm run dev
+```
+
+- **Frontend:** http://localhost:5173
+- **Backend:** http://localhost:3001
+
+**Run separately:**
+```bash
+npm run dev:front   # frontend only
+npm run dev:back    # backend only
+```
+
+---
+
+## Future Improvements
+
+- [ ] Add contact form submission (email integration or serverless function)
+- [ ] Add dark/light theme toggle
+- [ ] Add project screenshots carousel
+- [ ] Add blog or writing section
+
+---
+
+## Links
+
+[GitHub](https://github.com/mthsdaher) · [LinkedIn](https://www.linkedin.com/in/matheus-daher/) · [Resume](/resume/Matheus_Daher_Resume.tex)
